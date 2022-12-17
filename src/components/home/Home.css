@@ -13,9 +13,9 @@
     grid-template-columns: max-content;
     row-gap: 1rem;
 }
-
+/* insta and other icons so change rem */
 .home__social-icon{
-    font-size: 1.25rem;
+    font-size: 0rem;
     color: var(--title-color);
 }
 
@@ -37,20 +37,13 @@
 .home__subtitle{
     position: relative;
     font-size: var(--h3-font-size);
-    padding-left: 5.4rem;
+    
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    text-align: center;
 }
 
-.home__subtitle::before{
-    content: '';
-    position: absolute;
-    width: 70px;
-    height: 1px;
-    background-color: var(--text-color);
-    left: 0;
-    top: 1rem;
-}
+
 .home__description{
     max-width: 400px;
     margin-bottom: var(--mb-3);
@@ -58,7 +51,7 @@
 
 
 .home__img{
-    background: url(../../assets//inff.jpg);
+    background: url(../../assets//hype1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,7 +113,7 @@
         height: 26px;
     }
     .home__subtitle{
-        padding-left: 3.75rem;
+        
         margin-bottom: var(--mb-1);
     }
     .home__subtitle::before{
@@ -178,4 +171,8 @@
     width: 22px;
     height: 22px;
    }
+  }
+  .home__data{
+    justify-content: center;
+    text-align: center;
   }

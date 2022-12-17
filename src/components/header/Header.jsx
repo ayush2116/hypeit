@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Inff
+          Hypeitup
         </a>
         <div className={Toggle? "nav__menu show-menu":
     "nav__menu"}>
@@ -29,15 +29,15 @@ const Header = () => {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#services" className="nav__link">
+                    <a href="#testimonials" className="nav__link">
                         <i className="uil uil-briefcase nav__icon"></i>Services
                     </a>
                 </li>
-                <li className="nav__item">
+                {/* <li className="nav__item">
                     <a href="#portfolio" className="nav__link">
                         <i className="uil uil-scenery nav__icon"></i>Portfolio
                     </a>
-                </li>
+                </li> */}
                 <li className="nav__item">
                     <a href="#contact" className="nav__link">
                         <i className="uil uil-message nav__icon"></i>Contact
