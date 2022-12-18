@@ -7,7 +7,7 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Where brand and Influencers shake hands with transparency</h3>
         <p className="home__description">
-            Elevate your influence with HypeitUp -> the go-to platform for Influencers
+            Elevate your influence with HypeitUp - the go-to platform for Influencers
         </p>
         {/* here change href to contact so it goes to contact directly */}
         <a href="#contact" className='button button--flex'>
