@@ -5,15 +5,15 @@ const Header = () => {
     const[Toggle,showMenu]= useState(false);
 
 //     
-    const navLink = document.querySelectorAll('.nav__link')
+    const showBar = () => showMenu(!Toggle)
     
 
-    function linkAction(){
-        const navMenu = document.getElementById('nav-menu')
+    // function linkAction(){
+    //     const navMenu = document.getElementById('nav-menu')
 
-        navMenu.classList.remove('show-menu')
-    }
-    navLink.forEach(n => n.addEventListener('click', linkAction))
+    //     navMenu.classList.remove('show-menu')
+    // }
+    // navLink.forEach(n => n.addEventListener('click', linkAction))
   return (
     <header className="header">
       <nav className="nav container">
@@ -21,8 +21,8 @@ const Header = () => {
           Hypeitup
         </a>
         <div id="nav-menu"className={Toggle? "nav__menu show-menu":
-    "nav__menu"}>
-            <ul className="nav__list grid">
+    "nav__menu"} >
+            <ul className="nav__list grid" onClick={showBar} >
                 <li className="nav__item">
                     <a href="#home" className="nav__link active-link">
                         <i className="uil uil-estate nav__icon"></i>Home
