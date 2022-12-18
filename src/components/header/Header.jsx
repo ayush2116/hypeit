@@ -4,13 +4,23 @@ const Header = () => {
     // togglemenu
     const[Toggle,showMenu]= useState(false);
 
+//     
+    const navLink = document.querySelectorAll('.nav__link')
+    
+
+    function linkAction(){
+        const navMenu = document.getElementById('nav-menu')
+
+        navMenu.classList.remove('show-menu')
+    }
+    navLink.forEach(n => n.addEventListener('click', linkAction))
   return (
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Hypeitup
         </a>
-        <div className={Toggle? "nav__menu show-menu":
+        <div id="nav-menu"className={Toggle? "nav__menu show-menu":
     "nav__menu"}>
             <ul className="nav__list grid">
                 <li className="nav__item">
@@ -45,9 +55,9 @@ const Header = () => {
                 </li>
             </ul>
 
-            <i class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
+            <i id="nav-close" class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
         </div>
-        <div className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
+        <div id="nav-toggle"className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
         <i class="uil uil-apps"></i>
         </div>
       </nav>
