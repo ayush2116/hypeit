@@ -28,7 +28,7 @@ const Footer = () => {
         <i class="bx bxl-github-alt"></i>  
         </a> */}
     </div>
-    <span className='footer__copy'>&#169; Hypeitup. All rights reserved</span>
+    <span className='footer__copy'>2022 &#169; Hypeitup. All rights reserved</span>
 </div>
     </footer>
   )
