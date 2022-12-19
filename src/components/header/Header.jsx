@@ -31,17 +31,17 @@ const Header = () => {
                 </li>
                 <li className="nav__item">
                     <a href="#about" className="nav__link">
-                        <i className="uil uil-user nav__icon"></i>About
+                        <i className="uil uil-user nav__icon"></i>About Us
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#skills" className="nav__link">
-                        <i className="uil uil-file-alt nav__icon"></i>Process
+                        <i className="uil uil-file-alt nav__icon"></i>Key Features
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#testimonials" className="nav__link">
-                        <i className="uil uil-briefcase nav__icon"></i>Services
+                        <i className="uil uil-briefcase nav__icon"></i>Survey
                     </a>
                 </li>
                 {/* <li className="nav__item">

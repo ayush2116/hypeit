@@ -39,7 +39,7 @@ const Testimonials = () => {
         {Data.map(({ id, image, title, description }) => {
           return (
             <SwiperSlide className="testimonial__card" key={id}>
-              <img src={image} alt="" className="testimonial__img" />
+              {/* <img src={image} alt="" className="testimonial__img" /> */}
 
               <h3 className="testimonial__name">{title}</h3>
               <p className="testimonial__description">{description}</p>
