@@ -10,28 +10,28 @@ const Influencer = () => {
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Grow</h3>
-                        <span className="skills__level">Drastically</span>
+                        <span className="skills__level">while you grow with brand</span>
                     </div>
                     </div>
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Expand</h3>
-                        <span className="skills__level">yourself</span>
+                        <span className="skills__level">your network</span>
                     </div>
                     </div>
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Earn</h3>
-                        <span className="skills__level">directly</span>
+                        <span className="skills__level">with no hidden charges</span>
                     </div>
                     </div>
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Connect</h3>
-                        <span className="skills__level">with hundeeds of brands</span>
+                        <span className="skills__level">with emergin startups</span>
                     </div>
                     </div>
                 </div>

@@ -3,14 +3,14 @@ import React from 'react'
 const Business = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Buisness</h3>
+        <h3 className="skills__title">BUSINESS</h3>
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Search</h3>
-                        <span className="skills__level">For your fav influencer</span>
+                        <h3 className="skills__name">Connect</h3>
+                        <span className="skills__level"> with hundreds of influencers </span>
                     </div>
                     </div>
                     <div className="skills__data">
@@ -24,14 +24,14 @@ const Business = () => {
                     <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Collab</h3>
-                        <span className="skills__level">with multiple people</span>
+                        <span className="skills__level">with no hidden charges</span>
                     </div>
                     </div>
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Pay</h3>
-                        <span className="skills__level">the amount</span>
+                        <h3 className="skills__name"> Plan</h3>
+                        <span className="skills__level">directly with influencers</span>
                     </div>
                     </div>
                 </div>
