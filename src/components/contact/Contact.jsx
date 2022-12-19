@@ -24,7 +24,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">somethin@gmail.com</span>
-              <a href="mailto:esadad@gmail.com.com" className="contact__cutton">
+              <a href="mailto:esadad@gmail.com.com" className="contact__button">
                 Write Us
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -33,12 +33,12 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">12313123</span>
-              <a href="https://www.whatsapp.com/" className="contact__cutton">
+              <a href="https://www.whatsapp.com/" className="contact__button">
                 Write Us
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-            <div className="contact__card">
+            {/* <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">messenger</h3>
               <span className="contact__card-data">asdadasda</span>
@@ -49,10 +49,10 @@ const Contact = () => {
                 Write Us
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="contact__contect">
+        <div className="contact__content">
           <h3 className="contact__title">Send Us your Query</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">

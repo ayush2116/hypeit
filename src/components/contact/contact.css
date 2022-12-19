@@ -93,10 +93,11 @@
 }
 
 .contact__form-tag{
+    font-weight: 700;
     position: absolute;
     top: -0.59rem;
     left: 1.25rem;
-    font-size: var(--smaller-font-size);
+    font-size: var(--smaller-font-medium);
     padding: -.25rem;
     background-color: var(--body-color);
     z-index: 10;
