@@ -3,12 +3,11 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className='home__title'>best time to start working together?
+        <h1 className='home__title'>We make every content count !
         </h1>
-        <h3 className="home__subtitle">Where brand and Influencers shake hands with transparency</h3>
+        <h3 className="home__subtitle">We offer complete transparency between influencer and brand</h3>
         <p className="home__description">
-            Elevate your influence with HypeitUp - the go-to platform for Influencers
-        </p>
+        Because We Love Social Media and we believe you are master of your brand</p>
         {/* here change href to contact so it goes to contact directly */}
         <a href="#contact" className='button button--flex'>
           
