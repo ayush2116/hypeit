@@ -9,9 +9,7 @@
     align-items: center;
 }
 .home__social{
-    display: grid;
-    grid-template-columns: max-content;
-    row-gap: 1rem;
+    padding: 0;
 }
 /* insta and other icons so change rem */
 .home__social-icon{
