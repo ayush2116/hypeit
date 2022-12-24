@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
     </ul>
     <div className="footer__social">
-    <a href="https://www.instagram.com/hypeitup.official/" className="footer__social-link" target="_blank">
+    <a href="https://www.instagram.com/hypeitup.official/" className="footer__social-link" target="blank">
           <i class="bx bxl-instagram"></i>  
         </a>
 

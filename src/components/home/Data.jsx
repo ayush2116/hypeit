@@ -1,11 +1,23 @@
 import React from 'react'
-import Typed from 'react-typed'
+import Typewriter from 'typewriter-effect'
 const Data = () => {
   return (
     <div className="home__data">
         <h1 className='home__title'> Go-to platform for 
         </h1>
-        <Typed className='typo' strings={['Brands','Influencers','Creators']} typeSpeed={100} backSpeed={100} loop/>  
+        <div className='typu'>
+        <Typewriter
+    options={{
+      autoStart: true,
+      loop:true,
+      delay:100,
+      strings: [
+        "Influencers",
+        "Brands",
+        "Creators",
+      ],
+    }}
+  /></div>
         <h3 className="home__subtitle">Hype it up is a Catalyst that provides a transparent connection between a brand and an influencer</h3>
         {/* <p className="home__description">
         Because We Love Social Media and we believe you are master of your brand</p> */}
