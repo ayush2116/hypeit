@@ -35,7 +35,9 @@
     font-weight: 400;
     color: aqua;
 }
-
+.middle{
+    text-align: center;
+}
 
 @media screen and (max-width:560px) {
     .counter{

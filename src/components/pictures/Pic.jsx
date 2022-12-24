@@ -78,7 +78,7 @@ const Pic = ({className, ...rest }) => {
             )
         }}
         </CountUp>
-    </strong>+
+    </strong>
     <span>Million <br /> Registered companies</span>
 </div>
 

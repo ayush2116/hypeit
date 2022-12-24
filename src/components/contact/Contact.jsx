@@ -30,10 +30,10 @@ const Contact = () => {
               </a>
             </div>
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">12313123</span>
-              <a href="https://www.whatsapp.com/" className="contact__button">
+              <i className="bx bxl-instagram contact__card-icon"></i>
+              <h3 className="contact__card-title">Instagram</h3>
+              <span className="contact__card-data">@hypeitup.official</span>
+              <a href="https://www.instagram.com/hypeitup.official/" className="contact__button">
                 Write Us
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>

@@ -11,7 +11,13 @@
 .footer__link{
     color: var(--title-color);
 }
-
+.footer__tiitle{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: -33px;
+}
 
 .footer__title{
     text-align: center;
