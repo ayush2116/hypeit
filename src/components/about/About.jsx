@@ -10,13 +10,13 @@ const About = () => {
         <span className="section__subtitle">What We Do</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img"/>
+            <img  src={AboutImg} alt="" className="about__img"/>
 
             <div className="about__data">
                 <Info/>
-                {/* <p className="about__description">
+                <p className="about__description">
                     we help you get influencers while u sit back and watch your brand grow and reach success.
-                </p> */}
+                </p>
             </div>
         </div>
     </section>

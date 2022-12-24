@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import Logo from "../../assets/hypeit.png";
 const Header = () => {
     // togglemenu
     const[Toggle,showMenu]= useState(false);
@@ -17,6 +18,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
+        <img src={Logo} alt="logo" className="logo" />
         <a href="#home" className="nav__logo">
           Hype 
           <span className="nav__smalllogo">it up</span>
