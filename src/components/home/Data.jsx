@@ -1,13 +1,14 @@
 import React from 'react'
-
+import Typed from 'react-typed'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className='home__title'>We make every content count !
+        <h1 className='home__title'> Go-to platform for 
         </h1>
-        <h3 className="home__subtitle">We offer complete transparency between influencer and brand</h3>
-        <p className="home__description">
-        Because We Love Social Media and we believe you are master of your brand</p>
+        <Typed className='typo' strings={['Brands','Influencers','Creators']} typeSpeed={100} backSpeed={100} loop/>  
+        <h3 className="home__subtitle">Hype it up is a Catalyst that provides a transparent connection between a brand and an influencer</h3>
+        {/* <p className="home__description">
+        Because We Love Social Media and we believe you are master of your brand</p> */}
         {/* here change href to contact so it goes to contact directly */}
         <a href="#contact" className='button button--flex'>
           

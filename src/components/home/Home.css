@@ -33,9 +33,10 @@
 }
 
 .home__subtitle{
+    margin-top: 29px;
     position: relative;
-    font-size: var(--h3-font-size);
-    
+    font-size: 15px;
+    color: black;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
     text-align: center;

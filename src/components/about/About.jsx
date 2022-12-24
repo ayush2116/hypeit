@@ -14,9 +14,9 @@ const About = () => {
 
             <div className="about__data">
                 <Info/>
-                <p className="about__description">
+                {/* <p className="about__description">
                     we help you get influencers while u sit back and watch your brand grow and reach success.
-                </p>
+                </p> */}
             </div>
         </div>
     </section>
