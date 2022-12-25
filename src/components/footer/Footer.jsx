@@ -1,11 +1,11 @@
 import React from 'react'
 import "./footer.css"
+import Logo from "../../assets/logofinal.png"
 const Footer = () => {
   return (
     <footer className='footer'>
 <div className="footer__container container">
-    <h1 className="footer__title">HYPE</h1>
-    <div className='footer__tiitle'>itup</div>
+    <img src={Logo} alt="logo" className='logos'/>
     <ul className="footer__list">
         <li>
             <a href="#about" className='footer__link'>About</a>

@@ -5,18 +5,18 @@ const Info = () => {
     <div className="about__info">
         <div className="about__box">
         <i class='bx bx-signal-5 about__icon'></i>
-            <h3 className="about__title">Connect</h3>
-            <span className="about__subtitle">to 100+ influencers</span>
+            <h3 className="about__title">Collaborate with creators. Fast,easy,fun</h3>
+            <span className="about__subtitle"></span>
         </div>
         <div className="about__box">
         <i class='bx bx-money-withdraw about__icon'></i>
-            <h3 className="about__title">Grow</h3>
-            <span className="about__subtitle">direct growth</span>
+            <h3 className="about__title">All your content at your fingertips</h3>
+            <span className="about__subtitle"></span>
         </div>
         <div className="about__box">
         <i class='bx bx-support about__icon'></i>
-            <h3 className="about__title">Support</h3>
-            <span className="about__subtitle">24/7 support</span>
+            <h3 className="about__title">our Support team us just a click away</h3>
+            <span className="about__subtitle"></span>
         </div>
     </div>
   )
