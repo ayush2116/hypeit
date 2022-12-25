@@ -12,7 +12,7 @@
     color: var(--title-color);
 }
 .logos{
-    width: 700px;
+    width: 70px;
     padding: 80px;
     border-radius: 100px;
 }
@@ -73,5 +73,10 @@
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
+    }
+    .logos{
+        width: 600px;
+    padding: 900px;
+    border-radius: 100px;
     }
   }
