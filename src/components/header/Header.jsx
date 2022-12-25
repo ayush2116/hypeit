@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Logo from "../../assets/hypeit.png";
+import Logo from "../../assets/logohai.png";
 const Header = () => {
     // togglemenu
     const[Toggle,showMenu]= useState(false);
