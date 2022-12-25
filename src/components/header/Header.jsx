@@ -18,11 +18,13 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <img src={Logo} alt="logo" className="logo" />
-        <a href="#home" className="nav__logo">
+        <div href="#home">
+        <img  src={Logo} alt="logo" className="logo" />
+        {/* <a href="#home" className="nav__logo">
           Hype 
           <span className="nav__smalllogo">it up</span>
-        </a>
+        </a> */}
+        </div>
         <div id="nav-menu"className={Toggle? "nav__menu show-menu":
     "nav__menu"} >
             <ul className="nav__list grid" onClick={showBar} >
