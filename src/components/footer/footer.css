@@ -12,6 +12,9 @@
     color: var(--title-color);
 }
 .logos{
+    width: 700px;
+    padding: 80px;
+    border-radius: 100px;
 }
 .footer__tiitle{
     text-align: center;
