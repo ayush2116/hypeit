@@ -31,7 +31,7 @@ const Pic = ({className, ...rest }) => {
         }}
         </CountUp>
     </strong> +
-    <span>And Growing <br /> INFLUENCERS</span>
+    <span>Influencers</span> 
 </div>
 
 <div className="counter-column">
@@ -55,7 +55,7 @@ const Pic = ({className, ...rest }) => {
         }}
         </CountUp>
     </strong>+
-    <span>Crores <br /> of market</span>
+    <span>crores of rising Business</span> 
 </div>
 
 <div className="counter-column"> 
@@ -78,8 +78,8 @@ const Pic = ({className, ...rest }) => {
             )
         }}
         </CountUp>
-    </strong>
-    <span>Million <br /> Registered companies</span>
+    </strong>+
+    <span>Million Registered companies</span> 
 </div>
 
 </div>

@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="skills section" id="skills">
         <h2 className="section__title">Our Services</h2>
-        <span className="section__subtitle">-----</span>
+        <span className="section__subtitle">Service Truly Different</span>
 
         <div className="skills__container grid">
         <Influencer/>
